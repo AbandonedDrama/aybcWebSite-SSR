@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- 显示页面的主体内容。 -->
     <nuxt/>
   </div>
 </template>

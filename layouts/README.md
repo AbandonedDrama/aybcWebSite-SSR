@@ -1,8 +1,8 @@
 # LAYOUTS
 
-This directory contains your Application Layouts.
+这个目录是你应用的布局
 
-More information about the usage of this directory in the documentation:
+更多的使用信息在这个目录:
 https://nuxtjs.org/guide/views#layouts
 
-**This directory is not required, you can delete it if you don't want to use it.**
+**此目录不是必需的，如果不想使用该目录，则可以将其删除。**

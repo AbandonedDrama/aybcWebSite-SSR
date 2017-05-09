@@ -1,11 +1,8 @@
-# STATIC
+# 静态文件
 
-This directory contains your static files.
-Each file inside this directory is mapped to /.
+这个文件夹用来存放静态文件
 
-Example: /static/robots.txt is mapped as /robots.txt.
-
-More information about the usage of this directory in the documentation:
+更多的使用信息在这个目录:
 https://nuxtjs.org/guide/assets#static
 
-**This directory is not required, you can delete it if you don't want to use it.**
+**不需要这个目录,您可以删除它,如果你不想使用它。**

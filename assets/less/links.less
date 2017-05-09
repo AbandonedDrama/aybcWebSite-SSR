@@ -1,0 +1,48 @@
+#links{
+  width: 100%;
+  border-top: 1px solid #333; 
+  border-bottom: 1px solid #333;
+  .links{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
+    a{
+      display: block;
+      font-size: 18px;
+      color: #666;
+      margin: 16px 0;
+      &:hover{
+        color: #ccc;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  
+}
+@media (max-width: 992px){
+  #links{
+    .links{
+      padding: 0 35px!important;
+    }
+  }
+}
+@media (max-width: 768px){
+  #links{
+    .links{
+      padding: 0 30px!important;
+      a{
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0!important;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

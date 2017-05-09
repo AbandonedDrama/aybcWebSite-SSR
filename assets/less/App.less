@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+#app,html,body{
+  width: 100%;
+  height: 100%;
+  background: #1C1E24;
+}
+a{
+  text-decoration: none!important;
+}
+ul,li{
+  list-style-type: none!important;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+#app{
+  .topNavigationWrap{
+    z-index: 9999;
+    position:fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.12);
+    background: rgba(0, 0, 0, 0.8)
+  }
+  .backTop{
+    z-index: 9999999;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10%;
+    bottom: 6%;
+    background: url(~static/img/backTop-min.png) no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .contact{
+    position: fixed;
+    right: 0;
+    top: 60%;
+    z-index: 9999999;
+    li{
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      &:nth-of-type(1){
+        background: url(~static/img/QQ_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(~static/img/QQ_selected-min.jpg) no-repeat center center;
+        }
+        a{
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &:nth-of-type(2){
+        background: url(~static/img/OfficialAccounts_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(~static/img/OfficialAccounts_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(3){
+        background: url(~static/img/wechatService_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(~static/img/wechatService_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(4){
+        background: url(~static/img/top_icon_default-min.jpg) no-repeat center center;
+        margin-top: 15px;
+        &:hover{
+          background: url(~static/img/top_icon_selected-min.jpg) no-repeat center center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+  #app{
+    .contact{
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px){
+  .body{
+    padding-top: 60px;
+  }
+}

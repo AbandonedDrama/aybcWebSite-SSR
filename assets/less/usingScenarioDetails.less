@@ -1,0 +1,93 @@
+#usingScenarioDetails{
+  width: 100%;
+  margin: 0 auto;
+  .usingScenarioDetailsImg{
+    li{
+      height: 800px;
+      width: 100%;
+      &:nth-of-type(1){
+        background: url(..~static/img/clothing_store_2-min.jpg) no-repeat center center;
+        background-size: auto 100%;
+      }
+      &:nth-of-type(2){
+        background: url(..~static/img/shoe_store_2-min.jpg) no-repeat center center;
+        background-size: auto 100%;
+      }
+      &:nth-of-type(3){
+        background: url(..~static/img/luggage_shop_2-min.jpg) no-repeat center center;
+        background-size: auto 100%;
+      }
+      &:nth-of-type(4){
+        background: url(..~static/img/lingerie_store_2-min.jpg) no-repeat center center;
+        background-size: auto 100%;
+      }
+    }
+  }
+  .floorNav{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    z-index: 999999;
+    li{
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      &:nth-of-type(1){
+        background: url(..~static/img/clothing_store_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(..~static/img/clothing_store_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(2){
+        background: url(..~static/img/shoe_store_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(..~static/img/shoe_store_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(3){
+        background: url(..~static/img/luggage_shop_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(..~static/img/luggage_shop_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(4){
+        background: url(..~static/img/lingerie_store_default-min.jpg) no-repeat center center;
+        &:hover{
+          background: url(..~static/img/lingerie_store_selected-min.jpg) no-repeat center center;
+        }
+      }
+      &:nth-of-type(5){
+        background: url(..~static/img/top_icon_default-min.jpg) no-repeat center center;
+        margin-top: 15px;
+        &:hover{
+          background: url(..~static/img/top_icon_selected-min.jpg) no-repeat center center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+  #usingScenarioDetails{
+    .usingScenarioDetailsImg{
+      li{
+        height: 450px;
+      }
+    }
+    .floorNav{
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px){
+  #usingScenarioDetails{
+    .usingScenarioDetailsImg{
+      li{
+        height: 230px;
+      }
+    }
+  }
+}
