@@ -1,4 +1,6 @@
 import Vue from 'vue'
+// import ElementUI from 'element-ui'
+// Vue.use(ElementUI)
 import { Icon, Button, Col, Row, Dropdown, DropdownMenu, DropdownItem, Carousel, CarouselItem, Pagination, Table, TableColumn, Form, FormItem, Input, Select, Option, Dialog, Collapse, collapseItem } from 'element-ui'
 Vue.use(Icon)
 Vue.use(Button)

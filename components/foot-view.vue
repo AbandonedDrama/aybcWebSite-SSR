@@ -42,7 +42,7 @@
           <el-row type="flex" justify="end">
             <ul class="wechatServicePostion">
               <li><router-link to="aybcRobot/order"><h2>招商咨询</h2></router-link></li>
-              <img src="~assets/img/wechatService-min.jpg">
+              <img src="~static/img/wechatService-min.jpg">
             </ul>
           </el-row>
         </el-col>

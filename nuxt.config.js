@@ -24,7 +24,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '深圳市哎呦不错机器人科研有限公司是家专业从事研发、生产、销售智能导购器人的高科技创新公司。公司依托于物联网与大数据，利用最先进的计算平台，针对性地成功研发出更快速、更精准、更灵活、更实用的门店智能导购机器人。旨在实现传统门店向智能门店的转变，提升门店的智能管理，形成智能门店的产业生态链。' },
-      { name: 'keywords', content: '哎呦不错,哎哟不错,导购机器人,智能导购机器人,门店智能机器人,内衣导购机器人,哎呦不错妹妹,哎哟不错妹妹'}
+      { name: 'keywords', content: '哎呦不错,哎哟不错,导购机器人,智能导购机器人,门店智能机器人,内衣导购机器人,哎呦不错妹妹,哎哟不错妹妹' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -62,10 +62,10 @@ module.exports = {
     },
     /* 自定义 webpack 加载器 */
     loaders: [
-      {
-        test: /\.less$/,
-        loader: 'style-loader!css-loader!less-loader'
-      },
+      // {
+      //   test: /\.less$/,
+      //   loader: 'style-loader!css-loader!less-loader'
+      // }
       // {
       //   test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
       //   loader: 'file-loader'
