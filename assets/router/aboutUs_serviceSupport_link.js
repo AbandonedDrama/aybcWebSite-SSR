@@ -217,12 +217,12 @@ export const links = [
 import lettersPatent1 from '~static/img/1.jpg'
 import lettersPatent2 from '~static/img/2.jpg'
 import lettersPatent3 from '~static/img/3.jpg'
-import lettersPatent4 from '~static/img/3.jpg'
-import lettersPatent5 from '~static/img/4.jpg'
-import lettersPatent6 from '~static/img/5.jpg'
-import lettersPatent7 from '~static/img/6.jpg'
-import lettersPatent8 from '~static/img/7.jpg'
-import lettersPatent9 from '~static/img/8.jpg'
+import lettersPatent4 from '~static/img/4.jpg'
+import lettersPatent5 from '~static/img/5.jpg'
+import lettersPatent6 from '~static/img/6.jpg'
+import lettersPatent7 from '~static/img/7.jpg'
+import lettersPatent8 from '~static/img/8.jpg'
+import lettersPatent9 from '~static/img/9.jpg'
 
 export const patentCertificate = [
   {

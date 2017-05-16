@@ -62,6 +62,14 @@ module.exports = {
     },
     /* 自定义 webpack 加载器 */
     loaders: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000, // 10KO
+          name: 'img/[name].[hash].[ext]'
+        }
+      }
       // {
       //   test: /\.less$/,
       //   loader: 'style-loader!css-loader!less-loader'
